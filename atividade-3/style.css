@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+p {
+    color: gray;
+}
+
+input {
+    background: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 1000px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+img {
+    border: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+ul>li:hover img {
+    border: solid white;
+    color: white;
+}
+
+ul>li:hover p {
+    color: white;
+}
+
+input:hover {
+    background: white;
+    color: black;
+}
